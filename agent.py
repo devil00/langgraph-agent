@@ -422,7 +422,7 @@ def build_graph(provider: str = "huggingface"):
 
 # test
 if __name__ == "__main__":
-    question = "When was a picture of St. Thomas Aquinas first added to the Wikipedia page on the Principle of double effect?"
+    question = "When was the last time NASDAQ stock market crashed last time?
     # Build the graph
     graph = build_graph(provider="huggingface")
     # Run the graph
